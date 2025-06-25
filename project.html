@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+<body> 
+<h1>Hello world</h1>
+    <p><b>Love</b></p>
+    <h2>My name is Faisal</h2>
+    <h3>I'm 16 years old</h3>
+    <hr>
+    <center><button id="magicBtn">Change</button></center>
+    <script>
+        const colors = ["#f1c40f", "#1abc9c", "#e74c3c", "#9b59b6", "#2ecc71"];
+        document.getElementById("magicBtn").onclick = function () {
+          const randomColor = colors[Math.floor(Math.random() * colors.length)];
+          document.body.style.backgroundColor = randomColor;
+        };
+      </script>
+      
+</body>
+</html>
