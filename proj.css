@@ -1,0 +1,53 @@
+h1 {
+    color: #000000;
+    background-color: blueviolet;
+  }
+  body{
+    background-color: rgb(78, 6, 164);
+  }
+  head{
+    background-color: blue;
+  }
+  p{
+    color: #b41a1a;
+    background-color: tomato;
+    font-size: 18px;
+  }
+  b {
+    color: #b41a1a;
+    background-color: tomato;
+    font-size: 18px;
+  }
+  h2
+  {
+    background-color: rgb(255, 0, 255);
+    color: firebrick;
+  }
+  h3{
+    background-color: black;
+    color: crimson;
+  }
+
+  #magicBtn {
+    margin-top: 40px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease;
+  }
+  
+  #magicBtn:hover {
+    background-color: #ff6b81;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
